@@ -1,0 +1,9 @@
+{
+  "files": [],
+  "include": [],
+  "references": [
+      { "path": "./frontend/project-001" },
+      { "path": "./frontend/project-002" },
+      { "path": "./frontend/project-003" },
+  ]
+}

@@ -1,5 +1,8 @@
 import React from "react";
 import FooA from ":project-001/FooA";
+import { f } from ":project-001/a";
+
+f({ m: 'm' });
 
 type Props = {};
 

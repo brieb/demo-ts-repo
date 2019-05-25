@@ -4,11 +4,15 @@
   "main": "index.js",
   "repository": "git@github.com:brieb/demo-ts-repo.git",
   "license": "MIT",
-  "devDependencies": {
-    "@types/react": "^16.8.18",
-    "typescript": "^3.4.5"
+  "scripts": {
+    "build": "rm -rf ts-build && tsc -b tsconfig.json",
+    "watch": "rm -rf ts-build && tsc -b -w tsconfig.json"
   },
   "dependencies": {
     "react": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.18",
+    "typescript": "^3.4.5"
   }
 }

@@ -1,13 +1,19 @@
 {
   "compilerOptions": {
-    "allowJs": true,
+    "composite": true,
+    "incremental": true,
+    "declaration": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": true,
+    // error TS5053: Option 'allowJs' cannot be specified with option 'composite'.
+    // "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
     "jsx": "preserve",
     "lib": ["dom", "esnext"],
     "module": "esnext",
     "moduleResolution": "node",
-    "noEmit": true,
+    // "noEmit": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "resolveJsonModule": true,

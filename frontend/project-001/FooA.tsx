@@ -1,9 +1,15 @@
 import React from "react";
+import withHoc1, { WithHoc1Props } from "./withHoc1";
+import withHoc2 from "./withHoc2";
 
-type Props = {};
+type FooAProps = {
+  name?: string;
+} & WithHoc1Props;
 
-function FooA({  }: Props) {
-  return <div>FooA</div>;
+class FooA extends React.Component<FooAProps> {
+  render() {
+    return <div>Hello, {this.props.name}</div>;
+  }
 }
 
-export default FooA;
+export default withHoc2(withHoc1({})(FooA));

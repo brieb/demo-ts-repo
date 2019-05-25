@@ -1,4 +1,9 @@
 {
   "extends": "../typescript/tsconfig.base.json",
-  "include": [".", "../typescript/types"]
+  "compilerOptions": {
+    "outDir": "../../ts-build/project-002",
+    "rootDir": "."
+  },
+  "include": [".", "../typescript/types"],
+  "references": [{ "path": "../project-001" }]
 }
