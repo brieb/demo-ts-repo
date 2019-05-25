@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "preserve",
+    "lib": ["dom", "esnext"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "ES6",
+    "typeRoots": [
+      "../../node_modules/@irbnb-types",
+      "../../node_modules/@types"
+    ],
+    "baseUrl": "../", // frontend/
+    "paths": {
+      ":*": ["./*"]
+    }
+  }
+}
