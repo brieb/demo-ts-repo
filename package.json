@@ -9,6 +9,7 @@
     "typescript": "https://typescript.visualstudio.com/cf7ac146-d525-443c-b23c-0d58337efebc/_apis/build/builds/38559/artifacts?artifactName=tgz&fileId=6651122DC3B65DC6E5361D58210F56683D12455CF585713C3064D0EC82142E2D02&fileName=/typescript-3.6.0-insiders.20190802.tgz"
   },
   "dependencies": {
+    "prop-types": "^15.7.2",
     "react": "^16.8.6"
   }
 }
