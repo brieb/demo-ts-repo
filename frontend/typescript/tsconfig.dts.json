@@ -1,0 +1,9 @@
+{
+  "files": [],
+  "include": [],
+  "references": [
+    { "path": "../project-001/tsconfig.dts.json" },
+    { "path": "../project-002/tsconfig.dts.json" },
+    { "path": "../project-003/tsconfig.dts.json" },
+  ]
+}
