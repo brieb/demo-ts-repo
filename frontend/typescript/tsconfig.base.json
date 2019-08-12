@@ -13,7 +13,7 @@
     "resolveJsonModule": true,
     "sourceMap": true,
     "strict": true,
-    "target": "ES6",
+    "target": "esnext",
     "typeRoots": [
       "../../node_modules/@irbnb-types",
       "../../node_modules/@types"
