@@ -13,6 +13,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "resolveJsonModule": true,
+    "rootDir": "..",
     "sourceMap": true,
     "strict": true,
     "target": "esnext",
@@ -22,7 +23,7 @@
     ],
     "baseUrl": "../", // frontend/
     "paths": {
-      ":*": ["./*"]
+      ":*": ["./typescript/.dts/*", "./*"]
     }
   }
 }
